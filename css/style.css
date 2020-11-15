@@ -78,6 +78,17 @@ h2 {
     text-decoration: none;
 
 }
+
+/****Parallax opening image****/
+.parallax {
+    background-image: url('../images/recipe-card.jpg'); 
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px pink;
+}
 /*************************Main Grid***************************/
 .wrapper {
     display: grid;
@@ -86,6 +97,9 @@ h2 {
     grid-gap: .5em;
     align-items: start;
     justify-items: stretch;
+}
+.parallax {
+    grid-column: 1/4;
 }
 #introduction {
     grid-column:1/4;
