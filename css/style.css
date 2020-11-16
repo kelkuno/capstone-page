@@ -110,7 +110,7 @@ h2 {
 }
 #deliverables {
     grid-column:1/4;
-    grid-row:5/6; 
+    grid-row:6/7; 
 }
 #research {
     grid-column:1/4;
@@ -118,7 +118,7 @@ h2 {
 }
 #process{
     grid-column:1/4;
-    grid-row:6/7; 
+    grid-row:5/6; 
 }
 #end-notes {
     grid-column:1/4;
