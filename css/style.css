@@ -43,7 +43,7 @@ a {
     font-size: 1em;
 }
 a:hover {
-    color: white;
+    color: rgb(0, 0, 0);
     background:#ffff4d;
 }
 h2 {
