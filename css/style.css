@@ -106,11 +106,11 @@ h2 {
 }
 #design-problem {
     grid-column:1/4;
-    grid-row:5/6; 
+    grid-row:4/5; 
 }
 #deliverables {
     grid-column:1/4;
-    grid-row:4/5; 
+    grid-row:5/6; 
 }
 #research {
     grid-column:1/4;
@@ -178,13 +178,9 @@ h2 {
     align-items: stretch;
     justify-items: stretch;
 }
-.problem-content h2 {
+.design-problem-explanation{
     grid-column: 2/6;
     grid-row: 1/2;   
-}
-.problem-content .explanation{
-    grid-column: 2/6;
-    grid-row: 2/3;   
 }
 /****deliverables****/
 .deliverables-content {
@@ -238,9 +234,37 @@ h2 {
     align-items: stretch;
     justify-items: stretch;
 }
-.process-content h2{
+.process-content-intro{
     grid-column: 2/6;
     grid-row: 1/2; 
+}
+.process-content-description{
+    grid-column: 2/4;
+    grid-row: 2/3; 
+    justify-self: center;
+    align-self: center;
+}
+.process-content-progress-shot{
+    grid-column: 4/6;
+    grid-row: 2/3; 
+}
+.process-content-middle{
+    grid-column: 2/6;
+    grid-row: 3/4; 
+}
+.process-content-music{
+    grid-column: 2/4;
+    grid-row: 4/5; 
+    justify-self: center;
+    align-self: center;
+}
+.process-content-mom{
+    grid-column: 4/6;
+    grid-row: 4/5; 
+}
+.process-content-end{
+    grid-column: 2/6;
+    grid-row: 5/6; 
 }
 /****End notes****/
 .end-notes-content {
