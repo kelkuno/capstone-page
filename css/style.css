@@ -24,7 +24,7 @@ ul {
 li {
     list-style-type: none;
 }
-h1, h3 {
+h1, h3, h5 {
     padding: 0;
     margin: 0;
     font-family: hwt-artz, sans-serif;
@@ -35,6 +35,10 @@ h1, h3 {
     line-height: 1;
     letter-spacing: .04em;
 }
+h5{
+    color: darkgreen;
+    margin: 30px 0;
+}
 }
 a {
     color: black;
@@ -42,16 +46,22 @@ a {
     font-weight: bold;
     font-size: 1em;
 }
+a:link{
+    color: red;
+}
 a:hover {
     color: rgb(0, 0, 0);
     background:#ffff4d;
     border-radius: 50px 50px 50px 50px;
 }
+a:visited{
+    color: red;
+}
 h2 {
-    color: black;
-    font-size: 3vw; 
+    color:rgb(211, 135, 20);
+    font-size: 4vw; 
     padding: 0;
-    margin: 0;
+    margin: 30px 0 0 0;
     font-family: 'Kalam', cursive;
     font-style: normal;
     font-weight: 700;
@@ -71,7 +81,7 @@ h2 {
 }
 .nav ul li {
     flex: 1;
-    background: rgb(120, 241, 120);
+    background: rgb(63, 172, 63);
     border: solid 2px black;
     text-align: center;
 }
@@ -166,13 +176,9 @@ h2 {
 }
 .show-description-img-2 {
     grid-column: 2/6;
-    grid-row: 8/9;
-}
-.show-description {
-    grid-column: 2/6;
     grid-row: 7/8;
-    align-self: center;
 }
+
 /****Problem statement****/
 .problem-content {
     display: grid;
@@ -247,32 +253,36 @@ h2 {
     grid-row: 1/2; 
 }
 .process-content-description{
+    grid-column: 2/6;
+    grid-row: 2/3;
+}
+.process-content-paint-description{
     grid-column: 2/4;
-    grid-row: 2/3; 
+    grid-row: 3/4;
     justify-self: center;
     align-self: center;
 }
 .process-content-progress-shot{
     grid-column: 4/6;
-    grid-row: 2/3; 
+    grid-row: 3/4; 
 }
 .process-content-middle{
     grid-column: 2/6;
-    grid-row: 3/4; 
+    grid-row: 4/5; 
 }
 .process-content-music{
     grid-column: 2/4;
-    grid-row: 4/5; 
+    grid-row: 5/6; 
     justify-self: center;
     align-self: center;
 }
 .process-content-mom{
     grid-column: 4/6;
-    grid-row: 4/5; 
+    grid-row: 5/6; 
 }
 .process-content-end{
     grid-column: 2/6;
-    grid-row: 5/6; 
+    grid-row: 6/7; 
 }
 /****End notes****/
 .end-notes-content {
