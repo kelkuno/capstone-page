@@ -294,17 +294,22 @@ h2 {
     align-items: stretch;
     justify-items: stretch;
 }
-.end-notes-content h2{
+.closing-thoughts {
     grid-column: 2/6;
     grid-row: 1/2; 
 }
-.end-notes-content .bibliography{
+.end-notes-content h2{
     grid-column: 2/6;
     grid-row: 2/3; 
+}
+.end-notes-content .bibliography{
+    grid-column: 2/6;
+    grid-row: 3/4; 
 }
 .end-notes-content ol li{
     list-style-type: decimal;
 }
+
 
 /****Nested Grid -- Film Schedule****/
 .nested {
