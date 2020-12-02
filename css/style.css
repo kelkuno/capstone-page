@@ -172,11 +172,11 @@ h2 {
     grid-row: 6/7;
 }
 .show-description-img {
-    grid-column: 1/7;
+    grid-column: 2/6;
     grid-row: 7/8;
 }
 .show-description-img-2 {
-    grid-column: 1/7;
+    grid-column: 2/6;
     grid-row: 8/9;
 }
 
@@ -194,7 +194,7 @@ h2 {
     grid-row: 2/3;   
 }
 .design-challenge-img{
-    grid-column: 1/7;
+    grid-column: 2/6;
     grid-row: 1/2;   
 }
 /****deliverables****/
